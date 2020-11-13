@@ -19,7 +19,6 @@ function vowels(str){
                 string += " u";
                 break;
        }
-       
     }
     return string;
 }
