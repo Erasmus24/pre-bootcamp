@@ -1,10 +1,10 @@
 function celsiusToFahrenhiet(celsius){
-    let fahrenhiet = (celsius * 1.8) + 32;
+    let fahrenhiet = (celsius * 1.8) + 32; // Converting celsius into fahrenhiet
     return fahrenhiet + " degrees Fahrenhiet";
 }
 
 function fahrenhietToCelsius(fahrenhiet){
-    let celsius = (fahrenhiet / 1.8) - 32;
+    let celsius = (fahrenhiet / 1.8) - 32; // Converting fahrenhiet into celsius
     return celsius + " degrees Celsius";
 }
 

@@ -10,7 +10,7 @@
 
 function twoNumbers(a, b){
     var sum = a + b;
-    var sumString = sum.toString(); //Changing the number to a string
+    var sumString = sum.toString(); //Changing the number to a string so that we can use the includes() method
     return ((a === 3 || b === 3) && (sumString.includes("3"))) ? "true" : "false"
 }
 
