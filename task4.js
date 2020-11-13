@@ -1,10 +1,11 @@
 function twoNumbers(a, b){
-    var n = a + b;
-    if((a === 3 || b === 3) && (a + b == n.toString().includes("3"))){
+    var num = a + b;
+    var sum = num.toString();
+    if((a === 3 || b === 3) && (sum.includes("3"))){
         return "true";
-    } else {
-        return "false"
+    }else {
+        return "false";
     }
 }
 
-console.log(twoNumbers(3, 10));
+console.log(twoNumbers(50, 3));
