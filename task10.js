@@ -18,6 +18,7 @@ function vowels(str){
             case "u":
                 string += " u";
                 break;
+           
        }
     }
     return string;
@@ -25,3 +26,4 @@ function vowels(str){
 
 console.log(vowels("ERASMUS IS AWESOME !"));
 console.log(vowels("Umuzi Is The Best"));
+console.log(vowels("rhyme"));
