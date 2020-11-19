@@ -4,9 +4,11 @@ function celsiusToFahrenhiet(celsius){
 }
 
 function fahrenhietToCelsius(fahrenhiet){
-    let celsius = (fahrenhiet / 1.8) - 32; // Converting fahrenhiet into celsius
+    let celsius = (fahrenhiet - 32) * 1.8; // Converting fahrenhiet into celsius
     return celsius + " degrees Celsius";
 }
 
 console.log(celsiusToFahrenhiet(1));
 console.log(fahrenhietToCelsius(61));
+
+//<span>&#176;</span> degree symbol

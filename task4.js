@@ -14,4 +14,4 @@ function twoNumbers(a, b){
     return ((a === 3 || b === 3) && (sumString.includes("3"))) ? "true" : "false"
 }
 
-console.log(twoNumbers(3, 1000));
+console.log(twoNumbers(4, 3));
